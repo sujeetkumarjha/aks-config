@@ -10,7 +10,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: cluster-config
-  path: ./resources/apps
+  path: ./resources/apps/namespaces
   prune: true
   validation: client
   # healthChecks:
