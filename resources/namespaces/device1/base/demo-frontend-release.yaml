@@ -17,3 +17,4 @@ spec:
     createNamespace: true
   interval: 1m0s
   releaseName: demo-frontend-device1
+  targetNamespace: device1
