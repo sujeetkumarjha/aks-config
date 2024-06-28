@@ -1,9 +1,9 @@
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
-namespace: device1
 metadata:
   name: super-api
+  namespace: device2
 spec:
   chart:
     spec:
@@ -17,4 +17,3 @@ spec:
     createNamespace: true
   interval: 1m0s
   releaseName: super-api-device2
-  targetNamespace: device1
