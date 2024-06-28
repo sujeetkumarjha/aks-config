@@ -10,7 +10,6 @@ spec:
     name: cluster-config
   path: ./resources/common
   prune: true
-  validation: client
   # healthChecks:
   #   - apiVersion: apps/v1
   #     kind: DaemonSet
