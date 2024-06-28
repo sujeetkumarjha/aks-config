@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: device1
 resources:
   - namespace.yaml
-  - prometheus-operator.yaml
+  - super-api-release.yaml
