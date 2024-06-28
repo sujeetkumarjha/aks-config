@@ -1,0 +1,55 @@
+/target/
+/.settings/
+/.classpath
+/bin/
+/test-output/
+.project
+.DS_Store
+/logs/
+/node/
+/node_modules/
+logs/**
+/.sonar/
+**/*.iml
+/etc/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+**/.classpath
+**/.project
+**/.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+node
+node_temp
+node/
+node_modules
+etc/
+
+site/
+
+# VS Code
+
+.vscode/
+
+# Ignore odata folder contents
+odata-v2-sb3/*
+!odata-v2-sb3/pom.xml
+
+# Ignore deploy local manifest files
+manifests/
+argodeployer

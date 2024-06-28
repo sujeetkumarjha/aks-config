@@ -1,0 +1,9 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: super-api
+spec:
+  values:
+    image:
+      tag: 1.0.7
+    replicaCount: 3
