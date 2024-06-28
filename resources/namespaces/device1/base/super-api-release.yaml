@@ -16,5 +16,5 @@ spec:
   install:
     createNamespace: true
   interval: 1m0s
-  releaseName: super-api
+  releaseName: super-api-device2
   targetNamespace: device1
