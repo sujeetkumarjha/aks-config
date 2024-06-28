@@ -2,12 +2,12 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
   name: common
-  namespace: flux-system
+  namespace: cluster-config
 spec:
   interval: 10m0s
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: cluster-config
   path: ./resources/common
   prune: true
   validation: client

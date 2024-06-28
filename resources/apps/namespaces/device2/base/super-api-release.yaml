@@ -10,7 +10,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: flux-system
+        name: cluster-config
   install:
     createNamespace: true
   interval: 1m0s
