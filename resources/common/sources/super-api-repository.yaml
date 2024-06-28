@@ -4,5 +4,5 @@ kind: HelmRepository
 metadata:
   name: super-api
 spec:
-  interval: 10m0s
+  interval: 1m0s
   url: https://gbaeke.github.io/helm-chart/
