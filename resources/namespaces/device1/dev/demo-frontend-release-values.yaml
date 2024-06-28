@@ -4,7 +4,8 @@ metadata:
   name: demo-frontend-device1
   namespace: device1
 spec:
+  chart:
+    spec:
+      version: 19.5.4
   values:
-    image:
-      tag: e1f9d77
-    replicaCount: 3
+    replicaCount: 1

@@ -7,11 +7,12 @@ metadata:
 spec:
   chart:
     spec:
-      chart: demo-frontend
+      chart: redis
+      version: 19.5.4
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: demo-frontend
+        name: redis
         namespace: cluster-config
   install:
     createNamespace: true
