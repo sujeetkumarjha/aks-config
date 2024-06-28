@@ -13,8 +13,8 @@ spec:
   path: ./resources/apps
   prune: true
   validation: client
-  healthChecks:
-    - apiVersion: apps/v1
-      kind: Deployment
-      name: prometheus-operator-kube-p-operator
-      namespace: monitoring
+  # healthChecks:
+  #   - apiVersion: apps/v1
+  #     kind: Deployment
+  #     name: prometheus-operator-kube-p-operator
+  #     namespace: monitoring
