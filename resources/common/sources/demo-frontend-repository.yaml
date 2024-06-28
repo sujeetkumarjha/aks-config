@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
-  name: super-api
+  name: demo-frontend
 spec:
   interval: 1m0s
-  url: https://gbaeke.github.io/helm-chart/
+  url: https://yushiwho.github.io/charts

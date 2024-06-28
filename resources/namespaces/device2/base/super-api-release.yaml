@@ -2,18 +2,18 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: super-api-device2
+  name: demo-frontend-device2
   namespace: device2
 spec:
   chart:
     spec:
-      chart: super-api
+      chart: demo-frontend
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: super-api
+        name: demo-frontend
         namespace: cluster-config
   install:
     createNamespace: true
   interval: 1m0s
-  releaseName: super-api-device2
+  releaseName: demo-frontend-device2

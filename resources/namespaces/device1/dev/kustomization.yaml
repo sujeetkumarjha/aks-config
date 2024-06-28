@@ -4,4 +4,4 @@ namespace: device1
 resources:
   - ../base
 patchesStrategicMerge:
-  - super-api-release-values.yaml 
+  - demo-frontend-release-values.yaml 
