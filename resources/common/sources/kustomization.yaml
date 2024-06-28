@@ -3,4 +3,3 @@ kind: Kustomization
 namespace: cluster-config
 resources:
   - redis-repository.yaml
-  - demo-frontend-repository.yaml
