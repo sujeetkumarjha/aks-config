@@ -10,7 +10,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: redis
+        name: cluster-config
         namespace: cluster-config
   install:
     createNamespace: true
