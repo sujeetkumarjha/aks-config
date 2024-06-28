@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: device1
 resources:
   - super-api-release.yaml
+  - namespace.yaml
