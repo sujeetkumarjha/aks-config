@@ -5,8 +5,8 @@ metadata:
   namespace: cluster-config
 spec:
   interval: 10m0s
-  dependsOn:
-    - name: common
+  # dependsOn:
+  #   - name: common
   sourceRef:
     kind: GitRepository
     name: cluster-config
